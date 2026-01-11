@@ -28,6 +28,14 @@ python create_qr_code.py "https://example.com" 10
 # Output: qrcode.png (2cm x 2cm at 300 DPI)
 ```
 
+## Installation
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install qrcode Pillow
+```
+
 ## Requirements
 
 - Python 3.x
